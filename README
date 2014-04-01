@@ -1,0 +1,53 @@
+NAME
+    Dist::Zilla::Plugin::SHARYANTO::OurPkgVersion - no line insertion and
+    does Package version with our
+
+VERSION
+    version 0.01
+
+SYNOPSIS
+    in dist.ini
+
+            [SHARYANTO::OurPkgVersion]
+
+    in your modules
+
+            # VERSION
+
+    or
+
+            our $VERSION = '0.123'; # VERSION
+
+DESCRIPTION
+    This module is like Dist::Zilla::Plugin::OurPkgVersion but can replace
+    the previously generated "our $VERSION = '0.123'; " bit. If the author
+    of OurPkgVersion thinks this is a good idea, then perhaps this module
+    will be merged with OurPkgVersion.
+
+HOMEPAGE
+    Please visit the project's homepage at
+    <https://metacpan.org/release/Dist-Zilla-Plugin-SHARYANTO-OurPkgVersion>
+    .
+
+SOURCE
+    Source repository is at
+    <https://github.com/sharyanto/perl-Dist-Zilla-Plugin-SHARYANTO-OurPkgVer
+    sion>.
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    <https://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-SHA
+    RYANTO-OurPkgVersion>
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
+
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2014 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
