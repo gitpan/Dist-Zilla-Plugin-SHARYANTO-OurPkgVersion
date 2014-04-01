@@ -4,7 +4,7 @@ use 5.010;
 use strict;
 use warnings;
 
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 use Moose;
 with (
@@ -81,7 +81,7 @@ Dist::Zilla::Plugin::SHARYANTO::OurPkgVersion - no line insertion and does Packa
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -105,6 +105,14 @@ OurPkgVersion thinks this is a good idea, then perhaps this module will be
 merged with OurPkgVersion.
 
 =for Pod::Coverage .+
+
+=head1 SEE ALSO
+
+L<Dist::Zill::Plugin::OurPkgVersion>
+
+A simple script I'm using when testing: L<https://github.com/sharyanto/scripts/blob/master/fill-version-numbers-from-dist-ini>
+
+Another approach: L<Dist::Zill::Plugin::RewriteVersion> and L<Dist::Zill::Plugin:::BumpVersionAfterRelease>
 
 =head1 HOMEPAGE
 

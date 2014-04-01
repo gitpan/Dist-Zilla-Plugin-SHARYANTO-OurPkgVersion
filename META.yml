@@ -22,7 +22,7 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-SHARYANTO-OurPkgVersion
   homepage: https://metacpan.org/release/Dist-Zilla-Plugin-SHARYANTO-OurPkgVersion
   repository: git://github.com/sharyanto/perl-Dist-Zilla-Plugin-SHARYANTO-OurPkgVersion.git
-version: '0.01'
+version: '0.02'
 x_Dist_Zilla:
   perl:
     version: '5.018002'
@@ -104,9 +104,9 @@ x_Dist_Zilla:
       name: '@Author::SHARYANTO/MetaConfig'
       version: '5.013'
     -
-      class: Dist::Zilla::Plugin::OurPkgVersion
-      name: '@Author::SHARYANTO/OurPkgVersion'
-      version: '0.005001'
+      class: Dist::Zilla::Plugin::SHARYANTO::OurPkgVersion
+      name: '@Author::SHARYANTO/SHARYANTO::OurPkgVersion'
+      version: '0.01'
     -
       class: Dist::Zilla::Plugin::PodWeaver
       config:

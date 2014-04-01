@@ -53,7 +53,7 @@
          "web" : "https://github.com/sharyanto/perl-Dist-Zilla-Plugin-SHARYANTO-OurPkgVersion"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.018002"
@@ -155,9 +155,9 @@
             "version" : "5.013"
          },
          {
-            "class" : "Dist::Zilla::Plugin::OurPkgVersion",
-            "name" : "@Author::SHARYANTO/OurPkgVersion",
-            "version" : "0.005001"
+            "class" : "Dist::Zilla::Plugin::SHARYANTO::OurPkgVersion",
+            "name" : "@Author::SHARYANTO/SHARYANTO::OurPkgVersion",
+            "version" : "0.01"
          },
          {
             "class" : "Dist::Zilla::Plugin::PodWeaver",

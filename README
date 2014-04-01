@@ -3,7 +3,7 @@ NAME
     does Package version with our
 
 VERSION
-    version 0.01
+    version 0.02
 
 SYNOPSIS
     in dist.ini
@@ -23,6 +23,16 @@ DESCRIPTION
     the previously generated "our $VERSION = '0.123'; " bit. If the author
     of OurPkgVersion thinks this is a good idea, then perhaps this module
     will be merged with OurPkgVersion.
+
+SEE ALSO
+    Dist::Zill::Plugin::OurPkgVersion
+
+    A simple script I'm using when testing:
+    <https://github.com/sharyanto/scripts/blob/master/fill-version-numbers-f
+    rom-dist-ini>
+
+    Another approach: Dist::Zill::Plugin::RewriteVersion and
+    Dist::Zill::Plugin:::BumpVersionAfterRelease
 
 HOMEPAGE
     Please visit the project's homepage at
